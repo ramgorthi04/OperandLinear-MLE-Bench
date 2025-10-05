@@ -1,4 +1,4 @@
-# Operand Quant: MLE Submission
+# Operand Quant: MLE-Benchmark Submission
 
 This directory contains all logs, notebooks, and grading report from every seed of every problem that was attempted. It also contains validation scripts and environment setup artifacts.
 
