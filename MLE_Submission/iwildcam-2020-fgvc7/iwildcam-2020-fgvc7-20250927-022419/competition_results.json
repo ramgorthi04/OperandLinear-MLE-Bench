@@ -1,0 +1,20 @@
+{
+  "competition_id": "iwildcam-2020-fgvc7",
+  "competition_name": "iWildCam 2020 - FGVC7",
+  "metric": "accuracy",
+  "score": 0.64676,
+  "valid_submission": true,
+  "gold_medal": false,
+  "silver_medal": false,
+  "bronze_medal": true,
+  "above_median": true,
+  "any_medal": true,
+  "gold_threshold": 0.778,
+  "silver_threshold": 0.688,
+  "bronze_threshold": 0.594,
+  "median_threshold": 0.524,
+  "run_folder": "/home/ram_tryoperand_com/simon/agent_run_states/iwildcam-2020-fgvc7-20250927-022419",
+  "agent_exit_code": 0,
+  "timeout_occurred": false,
+  "timestamp": "2025-09-27 06:31:53"
+}

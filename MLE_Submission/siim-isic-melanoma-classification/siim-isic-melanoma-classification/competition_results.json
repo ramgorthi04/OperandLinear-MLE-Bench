@@ -1,0 +1,22 @@
+{
+  "competition_id": "siim-isic-melanoma-classification",
+  "submission_csv_path": "/app/agent_run_states/siim-isic-melanoma-classification/submission.csv",
+  "score": 0.76117,
+  "notebook_path": "/app/agent_run_states/siim-isic-melanoma-classification/agent_notebook.ipynb",
+  "total_runtime_seconds": 83285.24935340881,
+  "generated_timestamp": "2025-08-25T00:01:03.503595",
+  "competition_name": "SIIM-ISIC Melanoma Classification",
+  "metric": "auc-roc",
+  "valid_submission": true,
+  "medal_achieved": false,
+  "gold_medal": false,
+  "silver_medal": false,
+  "bronze_medal": false,
+  "above_median": false,
+  "thresholds": {
+    "gold_threshold": 0.9455,
+    "silver_threshold": 0.9401,
+    "bronze_threshold": 0.937,
+    "median_threshold": 0.9128
+  }
+}

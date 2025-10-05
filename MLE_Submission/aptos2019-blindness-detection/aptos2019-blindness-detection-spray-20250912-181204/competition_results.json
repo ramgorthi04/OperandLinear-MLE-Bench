@@ -1,0 +1,22 @@
+{
+  "competition_id": "aptos2019-blindness-detection",
+  "submission_csv_path": "/app/agent_run_states/aptos2019-blindness-detection-spray-20250912-181204/submission.csv",
+  "score": 0.83737,
+  "notebook_path": "/app/agent_run_states/aptos2019-blindness-detection-spray-20250912-181204/next24h_plan.ipynb",
+  "total_runtime_seconds": null,
+  "generated_timestamp": "2025-09-13T22:52:32.194868",
+  "competition_name": "APTOS 2019 Blindness Detection",
+  "metric": "quadratic-weighted-kappa",
+  "valid_submission": true,
+  "medal_achieved": false,
+  "gold_medal": false,
+  "silver_medal": false,
+  "bronze_medal": false,
+  "above_median": false,
+  "thresholds": {
+    "gold_threshold": 0.930508,
+    "silver_threshold": 0.919654,
+    "bronze_threshold": 0.914492,
+    "median_threshold": null
+  }
+}

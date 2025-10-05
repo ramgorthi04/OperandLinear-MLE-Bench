@@ -1,0 +1,20 @@
+{
+  "competition_id": "inaturalist-2019-fgvc6",
+  "competition_name": "iNaturalist 2019 at FGVC6",
+  "metric": "top-1-classification-error",
+  "score": 0.18638,
+  "valid_submission": true,
+  "gold_medal": false,
+  "silver_medal": true,
+  "bronze_medal": false,
+  "above_median": true,
+  "any_medal": true,
+  "gold_threshold": 0.15955,
+  "silver_threshold": 0.26058,
+  "bronze_threshold": 0.39028,
+  "median_threshold": 0.43478,
+  "run_folder": "/home/ram_tryoperand_com/simon/agent_run_states/inaturalist-2019-fgvc6-20250928-221919",
+  "agent_exit_code": 0,
+  "timeout_occurred": false,
+  "timestamp": "2025-09-29 02:04:34"
+}

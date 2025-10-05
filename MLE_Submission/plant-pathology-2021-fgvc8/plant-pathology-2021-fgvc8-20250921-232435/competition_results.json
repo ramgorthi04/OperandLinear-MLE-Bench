@@ -1,0 +1,20 @@
+{
+  "competition_id": "plant-pathology-2021-fgvc8",
+  "competition_name": "Plant Pathology 2021 - FGVC8",
+  "metric": "micro-f1-score",
+  "score": 0.83518,
+  "valid_submission": true,
+  "gold_medal": false,
+  "silver_medal": false,
+  "bronze_medal": true,
+  "above_median": true,
+  "any_medal": true,
+  "gold_threshold": 0.8612,
+  "silver_threshold": 0.85305,
+  "bronze_threshold": 0.83508,
+  "median_threshold": 0.754445,
+  "run_folder": "/home/ram_tryoperand_com/simon/agent_run_states/plant-pathology-2021-fgvc8-20250921-232435",
+  "agent_exit_code": 0,
+  "timeout_occurred": false,
+  "timestamp": "2025-09-21 23:52:05"
+}

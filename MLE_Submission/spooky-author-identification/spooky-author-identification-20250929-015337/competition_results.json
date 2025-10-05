@@ -1,0 +1,20 @@
+{
+  "competition_id": "spooky-author-identification",
+  "competition_name": "Spooky Author Identification",
+  "metric": "multi-class-log-loss",
+  "score": 0.29197,
+  "valid_submission": true,
+  "gold_medal": false,
+  "silver_medal": false,
+  "bronze_medal": true,
+  "above_median": true,
+  "any_medal": true,
+  "gold_threshold": 0.16506,
+  "silver_threshold": 0.26996,
+  "bronze_threshold": 0.29381,
+  "median_threshold": 0.418785,
+  "run_folder": "/home/ram_tryoperand_com/simon/agent_run_states/spooky-author-identification-20250929-015337",
+  "agent_exit_code": 0,
+  "timeout_occurred": false,
+  "timestamp": "2025-09-29 21:26:44"
+}

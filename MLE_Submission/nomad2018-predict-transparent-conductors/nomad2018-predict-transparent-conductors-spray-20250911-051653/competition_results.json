@@ -1,0 +1,22 @@
+{
+  "competition_id": "nomad2018-predict-transparent-conductors",
+  "submission_csv_path": "/app/agent_run_states/nomad2018-predict-transparent-conductors-spray-20250911-051653/submission.csv",
+  "score": 0.06158,
+  "notebook_path": "/app/agent_run_states/nomad2018-predict-transparent-conductors-spray-20250911-051653/main.ipynb",
+  "total_runtime_seconds": 21720.0318171978,
+  "generated_timestamp": "2025-09-11T11:26:41.341190",
+  "competition_name": "Nomad2018 Predicting Transparent Conductors",
+  "metric": "mean-column-wise-rmsle",
+  "valid_submission": true,
+  "medal_achieved": true,
+  "gold_medal": false,
+  "silver_medal": true,
+  "bronze_medal": false,
+  "above_median": true,
+  "thresholds": {
+    "gold_threshold": 0.05589,
+    "silver_threshold": 0.06229,
+    "bronze_threshold": 0.06582,
+    "median_threshold": 0.06988
+  }
+}

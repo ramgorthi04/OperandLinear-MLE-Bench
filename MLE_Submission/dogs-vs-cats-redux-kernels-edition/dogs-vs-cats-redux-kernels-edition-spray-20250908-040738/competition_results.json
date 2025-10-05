@@ -1,0 +1,22 @@
+{
+  "competition_id": "dogs-vs-cats-redux-kernels-edition",
+  "submission_csv_path": "/app/agent_run_states/dogs-vs-cats-redux-kernels-edition-spray-20250908-040738/submission.csv",
+  "score": 0.02172,
+  "notebook_path": "/app/agent_run_states/dogs-vs-cats-redux-kernels-edition-spray-20250908-040738/main.ipynb",
+  "total_runtime_seconds": 64891.0480568409,
+  "generated_timestamp": "2025-09-08T22:19:00.848224",
+  "competition_name": "Dogs vs. Cats Redux: Kernels Edition",
+  "metric": "log-loss",
+  "valid_submission": true,
+  "medal_achieved": true,
+  "gold_medal": true,
+  "silver_medal": false,
+  "bronze_medal": false,
+  "above_median": true,
+  "thresholds": {
+    "gold_threshold": 0.03882,
+    "silver_threshold": 0.05038,
+    "bronze_threshold": 0.06127,
+    "median_threshold": 0.12216
+  }
+}

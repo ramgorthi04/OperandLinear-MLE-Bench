@@ -1,0 +1,22 @@
+{
+  "competition_id": "plant-pathology-2020-fgvc7",
+  "submission_csv_path": "/app/agent_run_states/plant-pathology-2020-fgvc7-20250908-033134/submission.csv",
+  "score": 0.9744,
+  "notebook_path": "/app/agent_run_states/plant-pathology-2020-fgvc7-20250908-033134/main.ipynb",
+  "total_runtime_seconds": 19547.260763406754,
+  "generated_timestamp": "2025-09-08T08:57:36.049330",
+  "competition_name": "Plant Pathology 2020 - FGVC7",
+  "metric": "mean-column-wise-roc-auc",
+  "valid_submission": true,
+  "medal_achieved": true,
+  "gold_medal": false,
+  "silver_medal": false,
+  "bronze_medal": true,
+  "above_median": true,
+  "thresholds": {
+    "gold_threshold": 0.97836,
+    "silver_threshold": 0.97465,
+    "bronze_threshold": 0.97361,
+    "median_threshold": 0.94852
+  }
+}

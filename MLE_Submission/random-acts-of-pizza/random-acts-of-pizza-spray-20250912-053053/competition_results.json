@@ -1,0 +1,22 @@
+{
+  "competition_id": "random-acts-of-pizza",
+  "submission_csv_path": "/app/agent_run_states/random-acts-of-pizza-spray-20250912-053053/submission.csv",
+  "score": 0.69272,
+  "notebook_path": "/app/agent_run_states/random-acts-of-pizza-spray-20250912-053053/lr_upgrade.ipynb",
+  "total_runtime_seconds": 49843.96157646179,
+  "generated_timestamp": "2025-09-12T19:28:40.258098",
+  "competition_name": "Random Acts of Pizza",
+  "metric": "auc-roc",
+  "valid_submission": true,
+  "medal_achieved": true,
+  "gold_medal": false,
+  "silver_medal": false,
+  "bronze_medal": true,
+  "above_median": true,
+  "thresholds": {
+    "gold_threshold": 0.97908,
+    "silver_threshold": 0.76482,
+    "bronze_threshold": 0.6921,
+    "median_threshold": 0.5995950000000001
+  }
+}

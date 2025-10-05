@@ -1,0 +1,22 @@
+{
+  "competition_id": "mlsp-2013-birds",
+  "submission_csv_path": "/app/agent_run_states/mlsp-2013-birds-spray-20250909-233406/submission.csv",
+  "score": 0.90827,
+  "notebook_path": "/app/agent_run_states/mlsp-2013-birds-spray-20250909-233406/main.ipynb",
+  "total_runtime_seconds": 8006.098679304123,
+  "generated_timestamp": "2025-09-10T01:54:48.953211",
+  "competition_name": "MLSP 2013 Bird Classification Challenge",
+  "metric": "auc-roc",
+  "valid_submission": true,
+  "medal_achieved": true,
+  "gold_medal": false,
+  "silver_medal": true,
+  "bronze_medal": false,
+  "above_median": true,
+  "thresholds": {
+    "gold_threshold": 0.93527,
+    "silver_threshold": 0.90038,
+    "bronze_threshold": 0.87372,
+    "median_threshold": 0.86572
+  }
+}

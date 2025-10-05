@@ -1,0 +1,22 @@
+{
+  "competition_id": "histopathologic-cancer-detection",
+  "submission_csv_path": "/app/agent_run_states/histopathologic-cancer-detection/submission.csv",
+  "score": 0.93029,
+  "notebook_path": "/app/agent_run_states/histopathologic-cancer-detection/agent_notebook.ipynb",
+  "total_runtime_seconds": 90438.32237958908,
+  "generated_timestamp": "2025-08-12T16:16:08.342576",
+  "competition_name": "Histopathologic Cancer Detection",
+  "metric": "auc-roc",
+  "valid_submission": true,
+  "medal_achieved": false,
+  "gold_medal": false,
+  "silver_medal": false,
+  "bronze_medal": false,
+  "above_median": false,
+  "thresholds": {
+    "gold_threshold": 0.9835,
+    "silver_threshold": 0.9798,
+    "bronze_threshold": 0.9738,
+    "median_threshold": 0.9477
+  }
+}

@@ -1,0 +1,47 @@
+# Dockerfile.base - Heavy, stable base image with CUDA + ML frameworks
+# This image contains large dependencies that rarely change and will be pre-pulled into golden VM
+
+# Align CUDA version with Azure golden VM driver (12.1.1)
+FROM nvidia/cuda:12.1.1-cudnn8-devel-ubuntu22.04
+
+# Environment setup for non-interactive installs and Python optimization
+ENV DEBIAN_FRONTEND=noninteractive \
+    PIP_DISABLE_PIP_VERSION_CHECK=1 \
+    PIP_NO_CACHE_DIR=1 \
+    PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1
+
+# Install OS packages (development tools needed for some ML packages)
+RUN apt-get update -y \
+ && apt-get install -y --no-install-recommends \
+      ca-certificates \
+      curl \
+      git \
+      build-essential \
+      python3.11 \
+      python3.11-venv \
+      python3-pip \
+ && update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.11 1 \
+ && rm -rf /var/lib/apt/lists/*
+
+# Create application structure and working directory
+RUN mkdir -p /app /var/lib/simon/agent_run_states /opt/simon-venv
+WORKDIR /app
+
+# Create orchestrator virtual environment (isolated from agent kernel)
+RUN python3 -m venv /opt/simon-venv
+ENV PATH="/opt/simon-venv/bin:${PATH}"
+
+# Upgrade pip in orchestrator venv (dependencies will be installed by agent image)
+RUN pip install --upgrade pip
+
+# Create NVIDIA driver mount points for runtime GPU access
+RUN mkdir -p /usr/local/nvidia/lib /usr/local/nvidia/lib64
+
+# Set up basic Python path (agent will extend this)
+ENV PYTHONPATH="/app:/app/src"
+
+# Create non-root user for security (optional, can be overridden in agent)
+RUN useradd -ms /bin/bash simon && chown -R simon:simon /app /var/lib/simon
+
+

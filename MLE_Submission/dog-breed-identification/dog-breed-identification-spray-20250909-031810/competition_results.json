@@ -1,0 +1,22 @@
+{
+  "competition_id": "dog-breed-identification",
+  "submission_csv_path": "/app/agent_run_states/dog-breed-identification-spray-20250909-031810/submission.csv",
+  "score": 0.80095,
+  "notebook_path": "/app/agent_run_states/dog-breed-identification-spray-20250909-031810/main.ipynb",
+  "total_runtime_seconds": null,
+  "generated_timestamp": "2025-09-09T13:03:37.783749",
+  "competition_name": "Dog Breed Identification",
+  "metric": "multi-class-log-loss",
+  "valid_submission": true,
+  "medal_achieved": false,
+  "gold_medal": false,
+  "silver_medal": false,
+  "bronze_medal": false,
+  "above_median": false,
+  "thresholds": {
+    "gold_threshold": 0.0005,
+    "silver_threshold": 0.00539,
+    "bronze_threshold": 0.04598,
+    "median_threshold": null
+  }
+}

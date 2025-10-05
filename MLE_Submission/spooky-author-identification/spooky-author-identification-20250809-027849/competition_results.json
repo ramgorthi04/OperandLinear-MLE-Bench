@@ -1,0 +1,22 @@
+{
+  "competition_id": "spooky-author-identification",
+  "submission_csv_path": "/home/ram_tryoperand_com/simon/agent_run_states/spooky-author-identification/submission.csv",
+  "score": 0.28528,
+  "notebook_path": "/home/ram_tryoperand_com/simon/agent_run_states/spooky-author-identification/agent_notebook.ipynb",
+  "total_runtime_seconds": 73756.84437680244,
+  "generated_timestamp": "2025-08-09T00:14:55.773418",
+  "competition_name": "Spooky Author Identification",
+  "metric": "multi-class-log-loss",
+  "valid_submission": true,
+  "medal_achieved": true,
+  "gold_medal": false,
+  "silver_medal": false,
+  "bronze_medal": true,
+  "above_median": true,
+  "thresholds": {
+    "gold_threshold": 0.16506,
+    "silver_threshold": 0.26996,
+    "bronze_threshold": 0.29381,
+    "median_threshold": 0.418785
+  }
+}

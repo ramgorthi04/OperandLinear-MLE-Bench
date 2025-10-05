@@ -1,0 +1,10 @@
+{
+  "competition_id": "facebook-recruiting-iii-keyword-extraction",
+  "score": null,
+  "valid_submission": false,
+  "medal": "None",
+  "agent_exit_code": 255,
+  "timeout_occurred": false,
+  "error": "float() argument must be a string or a real number, not 'NoneType'",
+  "timestamp": "2025-09-24 04:58:04"
+}

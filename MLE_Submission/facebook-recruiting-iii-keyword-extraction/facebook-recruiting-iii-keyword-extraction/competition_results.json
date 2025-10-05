@@ -1,0 +1,22 @@
+{
+  "competition_id": "facebook-recruiting-iii-keyword-extraction",
+  "submission_csv_path": "/app/agent_run_states/facebook-recruiting-iii-keyword-extraction/submission.csv",
+  "score": 0.1991,
+  "notebook_path": "/app/agent_run_states/facebook-recruiting-iii-keyword-extraction/agent_notebook_pristine.ipynb",
+  "total_runtime_seconds": 81935.08722734451,
+  "generated_timestamp": "2025-08-11T21:35:12.780650",
+  "competition_name": "Facebook Recruiting III - Keyword Extraction",
+  "metric": "micro-f1-score",
+  "valid_submission": true,
+  "medal_achieved": false,
+  "gold_medal": false,
+  "silver_medal": false,
+  "bronze_medal": false,
+  "above_median": false,
+  "thresholds": {
+    "gold_threshold": 0.79479,
+    "silver_threshold": 0.76177,
+    "bronze_threshold": 0.71345,
+    "median_threshold": 0.60685
+  }
+}

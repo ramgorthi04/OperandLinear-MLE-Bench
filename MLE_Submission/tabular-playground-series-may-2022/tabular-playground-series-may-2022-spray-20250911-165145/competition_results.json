@@ -1,0 +1,22 @@
+{
+  "competition_id": "tabular-playground-series-may-2022",
+  "submission_csv_path": "/app/agent_run_states/tabular-playground-series-may-2022-spray-20250911-165145/submission.csv",
+  "score": 0.69736,
+  "notebook_path": "/app/agent_run_states/tabular-playground-series-may-2022-spray-20250911-165145/main.ipynb",
+  "total_runtime_seconds": null,
+  "generated_timestamp": "2025-09-12T21:25:41.783161",
+  "competition_name": "Tabular Playground Series - May 2022",
+  "metric": "auc-roc",
+  "valid_submission": true,
+  "medal_achieved": false,
+  "gold_medal": false,
+  "silver_medal": false,
+  "bronze_medal": false,
+  "above_median": false,
+  "thresholds": {
+    "gold_threshold": 0.99823,
+    "silver_threshold": 0.99822,
+    "bronze_threshold": 0.99818,
+    "median_threshold": null
+  }
+}

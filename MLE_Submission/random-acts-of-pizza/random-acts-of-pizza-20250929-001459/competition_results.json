@@ -1,0 +1,20 @@
+{
+  "competition_id": "random-acts-of-pizza",
+  "competition_name": "Random Acts of Pizza",
+  "metric": "auc-roc",
+  "score": 0.69251,
+  "valid_submission": true,
+  "gold_medal": false,
+  "silver_medal": false,
+  "bronze_medal": true,
+  "above_median": true,
+  "any_medal": true,
+  "gold_threshold": 0.97908,
+  "silver_threshold": 0.76482,
+  "bronze_threshold": 0.6921,
+  "median_threshold": 0.5995950000000001,
+  "run_folder": "/home/ram_tryoperand_com/simon/agent_run_states/random-acts-of-pizza-20250929-001459",
+  "agent_exit_code": 0,
+  "timeout_occurred": false,
+  "timestamp": "2025-09-29 12:19:15"
+}

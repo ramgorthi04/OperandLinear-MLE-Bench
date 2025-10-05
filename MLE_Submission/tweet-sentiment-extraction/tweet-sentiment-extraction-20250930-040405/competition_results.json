@@ -1,0 +1,20 @@
+{
+  "competition_id": "tweet-sentiment-extraction",
+  "competition_name": "Tweet Sentiment Extraction",
+  "metric": "jaccard-similarity",
+  "score": 0.71798,
+  "valid_submission": true,
+  "gold_medal": false,
+  "silver_medal": true,
+  "bronze_medal": false,
+  "above_median": true,
+  "any_medal": true,
+  "gold_threshold": 0.72689,
+  "silver_threshold": 0.71752,
+  "bronze_threshold": 0.71705,
+  "median_threshold": 0.71378,
+  "run_folder": "/home/ram_tryoperand_com/simon/agent_run_states/tweet-sentiment-extraction-20250930-040405",
+  "agent_exit_code": 0,
+  "timeout_occurred": false,
+  "timestamp": "2025-09-30 06:04:32"
+}

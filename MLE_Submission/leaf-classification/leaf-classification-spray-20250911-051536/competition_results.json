@@ -1,0 +1,22 @@
+{
+  "competition_id": "leaf-classification",
+  "submission_csv_path": "/app/agent_run_states/leaf-classification-spray-20250911-051536/submission.csv",
+  "score": 0.00883,
+  "notebook_path": "/app/agent_run_states/leaf-classification-spray-20250911-051536/main.ipynb",
+  "total_runtime_seconds": 9214.67495727539,
+  "generated_timestamp": "2025-09-11T07:56:10.863201",
+  "competition_name": "Leaf Classification",
+  "metric": "multi-class-log-loss",
+  "valid_submission": true,
+  "medal_achieved": true,
+  "gold_medal": false,
+  "silver_medal": false,
+  "bronze_medal": true,
+  "above_median": true,
+  "thresholds": {
+    "gold_threshold": 0.0,
+    "silver_threshold": 0.00791,
+    "bronze_threshold": 0.01526,
+    "median_threshold": 0.108345
+  }
+}

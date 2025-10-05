@@ -1,0 +1,20 @@
+{
+  "competition_id": "herbarium-2022-fgvc9",
+  "competition_name": "Herbarium 2022 - FGVC9",
+  "metric": "macro-f1-score",
+  "score": 0.6479,
+  "valid_submission": true,
+  "gold_medal": false,
+  "silver_medal": false,
+  "bronze_medal": true,
+  "above_median": true,
+  "any_medal": true,
+  "gold_threshold": 0.84602,
+  "silver_threshold": 0.75373,
+  "bronze_threshold": 0.5965,
+  "median_threshold": 0.22549,
+  "run_folder": "/home/ram_tryoperand_com/simon/agent_run_states/herbarium-2022-fgvc9-20250928-054725",
+  "agent_exit_code": 0,
+  "timeout_occurred": false,
+  "timestamp": "2025-09-28 14:27:47"
+}

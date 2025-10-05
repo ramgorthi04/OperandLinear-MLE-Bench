@@ -1,0 +1,20 @@
+{
+  "competition_id": "predict-volcanic-eruptions-ingv-oe",
+  "competition_name": "INGV - Volcanic Eruption Prediction",
+  "metric": "mean-absolute-error",
+  "score": 4945395.0,
+  "valid_submission": true,
+  "gold_medal": false,
+  "silver_medal": false,
+  "bronze_medal": true,
+  "above_median": true,
+  "any_medal": true,
+  "gold_threshold": 3971366.0,
+  "silver_threshold": 4808057.0,
+  "bronze_threshold": 4999330.0,
+  "median_threshold": 6300677.0,
+  "run_folder": "/home/ram_tryoperand_com/simon/agent_run_states/predict-volcanic-eruptions-ingv-oe-20250927-020603",
+  "agent_exit_code": 0,
+  "timeout_occurred": false,
+  "timestamp": "2025-09-27 04:47:20"
+}

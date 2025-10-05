@@ -1,0 +1,20 @@
+{
+  "competition_id": "google-quest-challenge",
+  "competition_name": "Google QUEST Q&A Labeling",
+  "metric": "column-wise-spearman",
+  "score": 0.38652,
+  "valid_submission": true,
+  "gold_medal": false,
+  "silver_medal": false,
+  "bronze_medal": true,
+  "above_median": true,
+  "any_medal": true,
+  "gold_threshold": 0.42278,
+  "silver_threshold": 0.39597,
+  "bronze_threshold": 0.37496,
+  "median_threshold": 0.357205,
+  "run_folder": "/home/ram_tryoperand_com/simon/agent_run_states/google-quest-challenge-20250929-040949",
+  "agent_exit_code": 0,
+  "timeout_occurred": false,
+  "timestamp": "2025-09-29 15:40:04"
+}

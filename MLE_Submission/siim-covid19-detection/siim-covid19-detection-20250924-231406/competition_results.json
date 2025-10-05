@@ -1,0 +1,20 @@
+{
+  "competition_id": "siim-covid19-detection",
+  "competition_name": "SIIM-FISABIO-RSNA COVID-19 Detection",
+  "metric": "mean-average-precision",
+  "score": 0.20071,
+  "valid_submission": true,
+  "gold_medal": false,
+  "silver_medal": false,
+  "bronze_medal": false,
+  "above_median": false,
+  "any_medal": false,
+  "gold_threshold": 0.623,
+  "silver_threshold": 0.609,
+  "bronze_threshold": 0.601,
+  "median_threshold": 0.586,
+  "run_folder": "/home/ram_tryoperand_com/simon/agent_run_states/siim-covid19-detection-20250924-231406",
+  "agent_exit_code": 0,
+  "timeout_occurred": false,
+  "timestamp": "2025-09-25 01:08:07"
+}

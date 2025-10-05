@@ -1,0 +1,22 @@
+{
+  "competition_id": "freesound-audio-tagging-2019",
+  "submission_csv_path": "/app/agent_run_states/freesound-audio-tagging-2019/submission.csv",
+  "score": 0.68063,
+  "notebook_path": "/app/agent_run_states/freesound-audio-tagging-2019/C2_gold_pipeline_final.ipynb",
+  "total_runtime_seconds": 136770.5215947628,
+  "generated_timestamp": "2025-08-12T12:46:46.669754",
+  "competition_name": "Freesound Audio Tagging 2019",
+  "metric": "label-ranking-average-precision",
+  "valid_submission": true,
+  "medal_achieved": false,
+  "gold_medal": false,
+  "silver_medal": false,
+  "bronze_medal": false,
+  "above_median": true,
+  "thresholds": {
+    "gold_threshold": 0.74399,
+    "silver_threshold": 0.7181,
+    "bronze_threshold": 0.69233,
+    "median_threshold": 0.54819
+  }
+}

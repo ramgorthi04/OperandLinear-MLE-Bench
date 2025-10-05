@@ -1,0 +1,20 @@
+{
+  "competition_id": "seti-breakthrough-listen",
+  "competition_name": "SETI Breakthrough Listen - E.T. Signal Search",
+  "metric": "auc-roc",
+  "score": 0.52149,
+  "valid_submission": true,
+  "gold_medal": false,
+  "silver_medal": false,
+  "bronze_medal": false,
+  "above_median": false,
+  "any_medal": false,
+  "gold_threshold": 0.79806,
+  "silver_threshold": 0.78095,
+  "bronze_threshold": 0.77439,
+  "median_threshold": 0.75889,
+  "run_folder": "/home/ram_tryoperand_com/simon/agent_run_states/seti-breakthrough-listen-20250925-211047",
+  "agent_exit_code": 0,
+  "timeout_occurred": false,
+  "timestamp": "2025-09-26 23:22:34"
+}

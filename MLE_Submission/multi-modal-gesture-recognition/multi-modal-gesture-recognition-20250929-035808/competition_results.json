@@ -1,0 +1,20 @@
+{
+  "competition_id": "multi-modal-gesture-recognition",
+  "competition_name": "Multi-modal Gesture Recognition",
+  "metric": "levenhstein-distance",
+  "score": 0.5383,
+  "valid_submission": true,
+  "gold_medal": false,
+  "silver_medal": false,
+  "bronze_medal": false,
+  "above_median": false,
+  "any_medal": false,
+  "gold_threshold": 0.1641,
+  "silver_threshold": 0.17763,
+  "bronze_threshold": 0.26608,
+  "median_threshold": 0.349595,
+  "run_folder": "/home/ram_tryoperand_com/simon/agent_run_states/multi-modal-gesture-recognition-20250929-035808",
+  "agent_exit_code": 255,
+  "timeout_occurred": false,
+  "timestamp": "2025-09-30 04:09:07"
+}

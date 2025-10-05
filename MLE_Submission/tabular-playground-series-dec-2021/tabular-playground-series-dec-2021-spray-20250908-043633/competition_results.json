@@ -1,0 +1,22 @@
+{
+  "competition_id": "tabular-playground-series-dec-2021",
+  "submission_csv_path": "/app/agent_run_states/tabular-playground-series-dec-2021-spray-20250908-043633/submission.csv",
+  "score": 0.96269,
+  "notebook_path": "/app/agent_run_states/tabular-playground-series-dec-2021-spray-20250908-043633/01_preprocess.ipynb",
+  "total_runtime_seconds": 85553.7660472393,
+  "generated_timestamp": "2025-09-09T04:29:31.640699",
+  "competition_name": "Tabular Playground Series - Dec 2021",
+  "metric": "multi-class-classification-accuracy",
+  "valid_submission": true,
+  "medal_achieved": true,
+  "gold_medal": true,
+  "silver_medal": false,
+  "bronze_medal": false,
+  "above_median": true,
+  "thresholds": {
+    "gold_threshold": 0.9566,
+    "silver_threshold": 0.95658,
+    "bronze_threshold": 0.95658,
+    "median_threshold": 0.95342
+  }
+}

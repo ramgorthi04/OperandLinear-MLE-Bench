@@ -1,0 +1,22 @@
+{
+  "competition_id": "the-icml-2013-whale-challenge-right-whale-redux",
+  "submission_csv_path": "/app/agent_run_states/the-icml-2013-whale-challenge-right-whale-redux-spray-20250911-045804/submission.csv",
+  "score": 0.94555,
+  "notebook_path": "/app/agent_run_states/the-icml-2013-whale-challenge-right-whale-redux-spray-20250911-045804/main.ipynb",
+  "total_runtime_seconds": 568.0893454551697,
+  "generated_timestamp": "2025-09-11T05:15:37.789903",
+  "competition_name": "The ICML 2013 Whale Challenge - Right Whale Redux",
+  "metric": "auc-roc",
+  "valid_submission": true,
+  "medal_achieved": true,
+  "gold_medal": false,
+  "silver_medal": false,
+  "bronze_medal": true,
+  "above_median": true,
+  "thresholds": {
+    "gold_threshold": 0.98961,
+    "silver_threshold": 0.95017,
+    "bronze_threshold": 0.90521,
+    "median_threshold": 0.86521
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "competition_id": "champs-scalar-coupling",
+  "competition_name": "Predicting Molecular Properties",
+  "metric": "log-mean-absolute-error",
+  "score": 1.99777,
+  "valid_submission": true,
+  "gold_medal": false,
+  "silver_medal": false,
+  "bronze_medal": false,
+  "above_median": false,
+  "any_medal": false,
+  "gold_threshold": -2.87509,
+  "silver_threshold": -2.03119,
+  "bronze_threshold": -1.90122,
+  "median_threshold": -0.9529,
+  "run_folder": "/home/ram_tryoperand_com/simon/agent_run_states/champs-scalar-coupling-20250923-045739",
+  "agent_exit_code": 0,
+  "timeout_occurred": false,
+  "timestamp": "2025-09-23 05:08:28"
+}

@@ -1,0 +1,22 @@
+{
+  "competition_id": "text-normalization-challenge-english-language",
+  "submission_csv_path": "/app/agent_run_states/text-normalization-challenge-english-language-20250908-205456/submission.csv",
+  "score": 0.99059,
+  "notebook_path": "/app/agent_run_states/text-normalization-challenge-english-language-20250908-205456/main.ipynb",
+  "total_runtime_seconds": 380.4224364757538,
+  "generated_timestamp": "2025-09-08T21:01:27.835960",
+  "competition_name": "Text Normalization Challenge - English Language",
+  "metric": "accuracy",
+  "valid_submission": true,
+  "medal_achieved": true,
+  "gold_medal": false,
+  "silver_medal": false,
+  "bronze_medal": true,
+  "above_median": true,
+  "thresholds": {
+    "gold_threshold": 0.99724,
+    "silver_threshold": 0.99135,
+    "bronze_threshold": 0.99038,
+    "median_threshold": 0.99037
+  }
+}

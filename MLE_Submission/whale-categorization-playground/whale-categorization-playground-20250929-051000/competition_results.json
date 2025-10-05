@@ -1,0 +1,20 @@
+{
+  "competition_id": "whale-categorization-playground",
+  "competition_name": "Humpback Whale Identification Challenge",
+  "metric": "MAP@5",
+  "score": 0.43053,
+  "valid_submission": true,
+  "gold_medal": false,
+  "silver_medal": false,
+  "bronze_medal": true,
+  "above_median": true,
+  "any_medal": true,
+  "gold_threshold": 0.56236,
+  "silver_threshold": 0.44852,
+  "bronze_threshold": 0.40515,
+  "median_threshold": 0.32788,
+  "run_folder": "/home/ram_tryoperand_com/simon/agent_run_states/whale-categorization-playground-20250929-051000",
+  "agent_exit_code": 0,
+  "timeout_occurred": false,
+  "timestamp": "2025-09-29 05:39:14"
+}

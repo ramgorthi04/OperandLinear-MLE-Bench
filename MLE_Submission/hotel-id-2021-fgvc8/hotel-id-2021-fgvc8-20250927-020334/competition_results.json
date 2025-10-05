@@ -1,0 +1,20 @@
+{
+  "competition_id": "hotel-id-2021-fgvc8",
+  "competition_name": "Hotel-ID to Combat Human Trafficking 2021 - FGVC8",
+  "metric": "map-at-5",
+  "score": 0.22754,
+  "valid_submission": true,
+  "gold_medal": false,
+  "silver_medal": false,
+  "bronze_medal": true,
+  "above_median": true,
+  "any_medal": true,
+  "gold_threshold": 0.7205,
+  "silver_threshold": 0.39,
+  "bronze_threshold": 0.0216,
+  "median_threshold": 0.0006,
+  "run_folder": "/home/ram_tryoperand_com/simon/agent_run_states/hotel-id-2021-fgvc8-20250927-020334",
+  "agent_exit_code": 0,
+  "timeout_occurred": false,
+  "timestamp": "2025-09-27 03:52:17"
+}

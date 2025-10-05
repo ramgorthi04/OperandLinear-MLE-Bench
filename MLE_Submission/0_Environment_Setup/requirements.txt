@@ -1,0 +1,33 @@
+# requirements.txt
+# minimal dependencies for running the agent
+
+# --- LLM SDKs ---
+google-genai
+google-cloud-aiplatform
+anthropic
+xai-sdk==1.0.1
+openai
+
+# --- Protobuf Compatibility ---
+# Pin protobuf to satisfy TensorFlow (<6.0.0) and xai-sdk compatibility
+protobuf>=3.20.3,<6.0.0
+# Pin grpcio-status to work with protobuf <6.0.0
+grpcio-status<1.74.0
+
+# --- Execution Environment ---
+jupyter_client==8.6.2
+ipykernel==6.29.5
+
+# --- Utilities ---
+python-dotenv==1.0.1
+tenacity==8.5.0
+pandas==2.2.2
+openpyxl==3.1.5
+pydantic==2.8.2
+pydantic-settings==2.3.4
+
+# # --- MLE-Bench ---
+# -e ./MLE-Bench/mle-bench
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+sse-starlette==1.6.5

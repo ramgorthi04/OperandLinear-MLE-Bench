@@ -1,0 +1,20 @@
+{
+  "competition_id": "osic-pulmonary-fibrosis-progression",
+  "competition_name": "OSIC Pulmonary Fibrosis Progression",
+  "metric": "modified-laplace-log-likelihood",
+  "score": -7.19604,
+  "valid_submission": true,
+  "gold_medal": false,
+  "silver_medal": false,
+  "bronze_medal": false,
+  "above_median": false,
+  "any_medal": false,
+  "gold_threshold": -6.8412,
+  "silver_threshold": -6.8533,
+  "bronze_threshold": -6.8683,
+  "median_threshold": -6.8993,
+  "run_folder": "/home/ram_tryoperand_com/simon/agent_run_states/osic-pulmonary-fibrosis-progression-20250924-052217",
+  "agent_exit_code": 0,
+  "timeout_occurred": false,
+  "timestamp": "2025-09-25 00:31:26"
+}

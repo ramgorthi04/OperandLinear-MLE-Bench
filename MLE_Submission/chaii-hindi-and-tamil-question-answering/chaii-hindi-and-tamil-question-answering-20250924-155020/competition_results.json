@@ -1,0 +1,22 @@
+{
+  "competition_id": "chaii-hindi-and-tamil-question-answering",
+  "submission_csv_path": "/app/agent_run_states/chaii-hindi-and-tamil-question-answering-20250924-155020/submission.csv",
+  "score": 0.66637,
+  "notebook_path": "/app/agent_run_states/chaii-hindi-and-tamil-question-answering-20250924-155020/production_final.ipynb",
+  "total_runtime_seconds": null,
+  "generated_timestamp": "2025-09-26T07:32:29.643774",
+  "competition_name": "Hindi and Tamil Question Answering",
+  "metric": "word-level-jaccard-score",
+  "valid_submission": true,
+  "medal_achieved": false,
+  "gold_medal": false,
+  "silver_medal": false,
+  "bronze_medal": false,
+  "above_median": false,
+  "thresholds": {
+    "gold_threshold": 0.76305,
+    "silver_threshold": 0.73984,
+    "bronze_threshold": 0.73725,
+    "median_threshold": null
+  }
+}

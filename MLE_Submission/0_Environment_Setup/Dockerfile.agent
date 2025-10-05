@@ -1,0 +1,59 @@
+# Dockerfile.agent - Light, fast-changing agent image built FROM base
+# This image contains application code and light dependencies that change frequently
+
+# Use the base image - this should be pinned to a specific tag or digest for cache reliability
+# The ACR URL will be substituted by build scripts
+ARG BASE_IMAGE=[REDACTED]
+FROM ${BASE_IMAGE}
+
+# Switch back to root for package installation
+USER root
+
+# Install orchestrator dependencies
+COPY requirements.txt /tmp/requirements.txt
+RUN pip install --no-cache-dir -r /tmp/requirements.txt \
+ && rm -f /tmp/requirements.txt
+
+# Install git and mlebench for remote-prepare capability
+RUN apt-get update && apt-get install -y git \
+ && pip install --no-cache-dir git+https://github.com/openai/mle-bench.git@main#egg=mlebench \
+ && apt-get clean && rm -rf /var/lib/apt/lists/*
+
+# Install sudo and configure passwordless sudo for simon user
+# This allows the agent to install system packages when needed
+RUN apt-get update && apt-get install -y sudo \
+ && echo "simon ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers \
+ && apt-get clean && rm -rf /var/lib/apt/lists/*
+
+# Install agent kernel dependencies (excluding heavy ML frameworks)
+# Filter out torch/tensorflow which are already in base image
+COPY src/agent-requirements.txt /tmp/agent-requirements.txt
+RUN set -eux; \
+    grep -Ev '^(torch(|vision|audio)|tensorflow)(\b|\[|==|>=|<=|~=|>|<)' /tmp/agent-requirements.txt > /tmp/agent-reqs-filtered.txt || true; \
+    if [ -s /tmp/agent-reqs-filtered.txt ]; then \
+        /usr/bin/python3.11 -m pip install --no-cache-dir -r /tmp/agent-reqs-filtered.txt; \
+    fi; \
+    rm -f /tmp/agent-requirements.txt /tmp/agent-reqs-filtered.txt
+
+# Copy application code (this layer changes most frequently)
+# Copy dependency files first for better cache layering
+COPY requirements.txt constraints.txt ./
+COPY src/ /app/src/
+COPY references/ /app/references/
+COPY cli_simon.py /app/
+
+
+# Set proper ownership for simon user
+RUN chown -R simon:simon /app /var/lib/simon
+
+# Switch to non-root user for runtime (can be overridden by compose)
+USER simon
+
+# Set working directory and Python path
+WORKDIR /app
+ENV PYTHONPATH="/app:/app/src"
+
+# Use the orchestrator venv Python for entrypoint
+ENTRYPOINT ["/opt/simon-venv/bin/python", "cli_simon.py"]
+
+

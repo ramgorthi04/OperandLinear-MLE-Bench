@@ -1,0 +1,20 @@
+{
+  "competition_id": "cassava-leaf-disease-classification",
+  "competition_name": "Cassava Leaf Disease Classification",
+  "metric": "accuracy",
+  "score": 0.89948,
+  "valid_submission": true,
+  "gold_medal": false,
+  "silver_medal": true,
+  "bronze_medal": false,
+  "above_median": true,
+  "any_medal": true,
+  "gold_threshold": 0.9013,
+  "silver_threshold": 0.8992,
+  "bronze_threshold": 0.8978,
+  "median_threshold": 0.8909,
+  "run_folder": "/home/ram_tryoperand_com/simon/agent_run_states/cassava-leaf-disease-classification-20250928-185924",
+  "agent_exit_code": 0,
+  "timeout_occurred": false,
+  "timestamp": "2025-09-28 23:10:51"
+}

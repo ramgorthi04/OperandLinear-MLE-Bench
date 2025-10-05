@@ -1,0 +1,20 @@
+{
+  "competition_id": "stanford-covid-vaccine",
+  "competition_name": "OpenVaccine: COVID-19 mRNA Vaccine Degradation Prediction",
+  "metric": "multi-class-log-loss",
+  "score": 0.31841,
+  "valid_submission": true,
+  "gold_medal": true,
+  "silver_medal": false,
+  "bronze_medal": false,
+  "above_median": true,
+  "any_medal": true,
+  "gold_threshold": 0.34728,
+  "silver_threshold": 0.35175,
+  "bronze_threshold": 0.3534,
+  "median_threshold": 0.363095,
+  "run_folder": "/home/ram_tryoperand_com/simon/agent_run_states/stanford-covid-vaccine-20250927-030510",
+  "agent_exit_code": 0,
+  "timeout_occurred": false,
+  "timestamp": "2025-09-27 03:20:50"
+}

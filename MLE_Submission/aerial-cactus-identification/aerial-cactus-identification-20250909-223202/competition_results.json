@@ -1,0 +1,22 @@
+{
+  "competition_id": "aerial-cactus-identification",
+  "submission_csv_path": "/app/agent_run_states/aerial-cactus-identification-20250909-223202/submission.csv",
+  "score": 1.0,
+  "notebook_path": "/app/agent_run_states/aerial-cactus-identification-20250909-223202/main.ipynb",
+  "total_runtime_seconds": 5233.555516004562,
+  "generated_timestamp": "2025-09-09T23:59:22.403352",
+  "competition_name": "Aerial Cactus Identification",
+  "metric": "auc-roc",
+  "valid_submission": true,
+  "medal_achieved": true,
+  "gold_medal": true,
+  "silver_medal": false,
+  "bronze_medal": false,
+  "above_median": true,
+  "thresholds": {
+    "gold_threshold": 1.0,
+    "silver_threshold": 1.0,
+    "bronze_threshold": 1.0,
+    "median_threshold": 0.9991
+  }
+}

@@ -1,0 +1,40 @@
+services:
+  simon-agent:
+    image: ${REDACTED}
+    working_dir: /app
+    network_mode: host
+    gpus: all
+    env_file:
+      - .env
+    volumes:
+      - .:/app:rw
+      - /var/lib/simon/agent_run_states:/var/lib/simon/agent_run_states:rw
+      - /mnt:/mnt:rw
+
+    read_only: true
+    tmpfs:
+      - /tmp:rw,mode=1777
+      - /var/tmp:rw,mode=1777
+      - /app/.pip-target:rw,exec,mode=1777
+      - /app/.pip-user:rw,exec,mode=1777
+
+    shm_size: "8g"
+    security_opt:
+      - no-new-privileges:true
+
+    environment:
+      - PATH=/opt/simon-venv/bin:/app/.pip-user/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+      - PIP_TARGET=/app/.pip-target
+      - PYTHONPATH=/app/.pip-target:/app:/app/src
+      - PYTHONUSERBASE=/app/.pip-user
+      - PIP_CACHE_DIR=/tmp/pip-cache
+      - PIP_DISABLE_PIP_VERSION_CHECK=1
+      - PIP_NO_CACHE_DIR=1
+      - HOME=/app
+      - MLEBENCH_HOME=/app/.mlebench
+      - XDG_CACHE_HOME=/app/.mlebench
+      - CUDA_HOME=/usr/local/cuda
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=compute,utility
+      - SCORING_SERVER_URL=${SCORING_SERVER_URL:-http://127.0.0.1:5000}
+    # No resource limits - use full NV6ADSA10v5 machine capacity, same as MLE Bench

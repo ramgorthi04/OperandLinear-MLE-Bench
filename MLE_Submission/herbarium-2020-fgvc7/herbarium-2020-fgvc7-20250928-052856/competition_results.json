@@ -1,0 +1,20 @@
+{
+  "competition_id": "herbarium-2020-fgvc7",
+  "competition_name": "Herbarium 2020 - FGVC7",
+  "metric": "macro-f1-score",
+  "score": 0.07856,
+  "valid_submission": true,
+  "gold_medal": false,
+  "silver_medal": false,
+  "bronze_medal": true,
+  "above_median": true,
+  "any_medal": true,
+  "gold_threshold": 0.63151,
+  "silver_threshold": 0.2805,
+  "bronze_threshold": 0.05334,
+  "median_threshold": 0.05334,
+  "run_folder": "/home/ram_tryoperand_com/simon/agent_run_states/herbarium-2020-fgvc7-20250928-052856",
+  "agent_exit_code": 0,
+  "timeout_occurred": false,
+  "timestamp": "2025-09-28 14:56:15"
+}

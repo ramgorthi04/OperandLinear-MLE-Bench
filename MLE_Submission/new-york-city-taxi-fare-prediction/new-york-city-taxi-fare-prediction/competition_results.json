@@ -1,0 +1,22 @@
+{
+  "competition_id": "new-york-city-taxi-fare-prediction",
+  "submission_csv_path": "/app/agent_run_states/new-york-city-taxi-fare-prediction/submission.csv",
+  "score": 4.69105,
+  "notebook_path": "/app/agent_run_states/new-york-city-taxi-fare-prediction/agent_notebook.ipynb",
+  "total_runtime_seconds": 56921.62791585922,
+  "generated_timestamp": "2025-08-23T19:59:10.033311",
+  "competition_name": "New York City Taxi Fare Prediction",
+  "metric": "root-mean-squared-error",
+  "valid_submission": true,
+  "medal_achieved": false,
+  "gold_medal": false,
+  "silver_medal": false,
+  "bronze_medal": false,
+  "above_median": false,
+  "thresholds": {
+    "gold_threshold": 2.83377,
+    "silver_threshold": 2.88191,
+    "bronze_threshold": 2.92371,
+    "median_threshold": 3.59741
+  }
+}

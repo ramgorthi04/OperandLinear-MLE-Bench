@@ -1,0 +1,22 @@
+{
+  "competition_id": "predict-volcanic-eruptions-ingv-oe",
+  "submission_csv_path": "/app/agent_run_states/predict-volcanic-eruptions-ingv-oe-spray-20250913-034310/submission.csv",
+  "score": 2188576,
+  "notebook_path": "/app/agent_run_states/predict-volcanic-eruptions-ingv-oe-spray-20250913-034310/main.ipynb",
+  "total_runtime_seconds": 1705.994196653366,
+  "generated_timestamp": "2025-09-13T04:25:35.611425",
+  "competition_name": "INGV - Volcanic Eruption Prediction",
+  "metric": "mean-absolute-error",
+  "valid_submission": true,
+  "medal_achieved": true,
+  "gold_medal": true,
+  "silver_medal": false,
+  "bronze_medal": false,
+  "above_median": true,
+  "thresholds": {
+    "gold_threshold": 3971366.0,
+    "silver_threshold": 4808057.0,
+    "bronze_threshold": 4999330.0,
+    "median_threshold": 6300677.0
+  }
+}

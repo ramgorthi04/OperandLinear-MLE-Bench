@@ -1,0 +1,22 @@
+{
+  "competition_id": "denoising-dirty-documents",
+  "submission_csv_path": "/app/agent_run_states/denoising-dirty-documents-spray-20250908-002739/submission.csv",
+  "score": 0.01081,
+  "notebook_path": "/app/agent_run_states/denoising-dirty-documents-spray-20250908-002739/main.ipynb",
+  "total_runtime_seconds": 11152.473749876022,
+  "generated_timestamp": "2025-09-08T03:40:33.462262",
+  "competition_name": "Denoising Dirty Documents",
+  "metric": "root_mean_squared_error",
+  "valid_submission": true,
+  "medal_achieved": true,
+  "gold_medal": true,
+  "silver_medal": false,
+  "bronze_medal": false,
+  "above_median": true,
+  "thresholds": {
+    "gold_threshold": 0.01794,
+    "silver_threshold": 0.02609,
+    "bronze_threshold": 0.04517,
+    "median_threshold": 0.07325
+  }
+}
