@@ -74,7 +74,7 @@ DETAIL,0.0,0,,ventilator-pressure-prediction,,3
 DETAIL,0.0,0,,vesuvius-challenge-ink-detection,,3
 DETAIL,0.0,0,,vinbigdata-chest-xray-abnormalities-detection,,3
 DETAIL,0.666667,2,,whale-categorization-playground,,3
-OVERALL,0.395556,,75,,0.056488,
-LITE,0.636364,,22,,0.104973,
-MEDIUM,0.333333,,38,,0.076472,
-HARD,0.2,,15,,0.106904,
+OVERALL,0.395556,,75,,0.032598,
+LITE,0.636364,,22,,0.059213,
+MEDIUM,0.333333,,38,,0.044151,
+HARD,0.2,,15,,0.059628,

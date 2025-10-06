@@ -226,6 +226,26 @@ def mean_sem(values: List[float]) -> Tuple[float, Optional[float]]:
     return mean, sem
 
 
+def mean_sem_binomial_from_stats(chosen: List[ProblemStats]) -> Tuple[float, Optional[float]]:
+    """
+    Compute binomial mean and SEM over all seeds (treating each seed as an i.i.d. trial).
+    This matches the leaderboard convention.
+    
+    Formula:
+        p_hat = (sum of medalled_seeds) / (3 * n_problems)
+        SEM_binomial = sqrt(p_hat * (1 - p_hat) / (3 * n_problems))
+    """
+    n = len(chosen)
+    total_trials = 3 * n
+    if total_trials == 0:
+        return float("nan"), None
+    total_medals = sum(ps.medalled_seeds for ps in chosen)
+    p_hat = total_medals / total_trials
+    # Binomial SEM treating seeds as i.i.d. trials
+    sem = math.sqrt(p_hat * (1.0 - p_hat) / total_trials)
+    return p_hat, sem
+
+
 def format_mean_sem(mean: float, sem: Optional[float], decimals: int = 4) -> str:
     if math.isnan(mean):
         return "n/a"
@@ -240,6 +260,7 @@ def parse_args(argv: Optional[List[str]] = None) -> argparse.Namespace:
     parser.add_argument("--subsets", type=str, default=None, help="Comma-separated subset names to include (LITE,MEDIUM,HARD). Default: all.")
     parser.add_argument("--problems", type=str, default=None, help="Comma-separated explicit problem folder names to include (overrides subsets if provided).")
     parser.add_argument("--flag-mode", type=str, choices=["union", "any_medal", "medal_achieved"], default="union", help="Which flag(s) define a medalled seed (default: union)")
+    parser.add_argument("--sem-mode", type=str, choices=["binomial", "per-problem"], default="binomial", help="How to compute SEM in summaries. 'binomial' matches the leaderboard; 'per-problem' is cluster-robust.")
     parser.add_argument("--csv", type=str, default=None, help="Optional path to write detailed CSV output.")
     parser.add_argument("--json", type=str, default=None, help="Optional path to write detailed JSON output.")
     parser.add_argument("--quiet", action="store_true", help="Reduce per-problem output; only print summaries.")
@@ -328,10 +349,19 @@ def main(argv: Optional[List[str]] = None) -> int:
     # Compute and print summaries
     def summarize(label: str, probs: Iterable[str]) -> Dict[str, object]:
         chosen = [stats_by_problem[p] for p in sorted(probs) if p in stats_by_problem]
-        rates = [ps.medal_rate for ps in chosen]
-        mean, sem = mean_sem(rates)
-        formatted = format_mean_sem(mean, sem)
-        print(f"{label} summary: {formatted} (n={len(chosen)} problems)")
+        
+        if args.sem_mode == "binomial":
+            # Leaderboard-style (binomial) mean and SEM over all seeds in these problems
+            mean, sem = mean_sem_binomial_from_stats(chosen)
+            formatted = format_mean_sem(mean, sem)
+            print(f"{label} summary: {formatted} (n={len(chosen)} problems, {len(chosen)*3} seeds)")
+        else:
+            # Original per-problem SEM over p_i = medalled/3
+            rates = [ps.medal_rate for ps in chosen]
+            mean, sem = mean_sem(rates)
+            formatted = format_mean_sem(mean, sem)
+            print(f"{label} summary: {formatted} (n={len(chosen)} problems)")
+        
         return {
             "label": label,
             "n_problems": len(chosen),
