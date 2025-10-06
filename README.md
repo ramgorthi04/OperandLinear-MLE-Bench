@@ -85,3 +85,6 @@ PDF covering key architecture specifications, MLE Benchmark compliance.
 
 ### Logs
 `full_history.json` contains the turn-by-turn log of the Operand Quant. All .ipynb files have been persisted and included for reproducibility.
+
+## Notes
+Due to infrastructure limitations and compute costs, we were unable to evaluate the agent on a small number of problems in the hard subset. Nevertheless, for fairness, our reported scores are calculated across the full set of 75 problems. As we had already achieved state-of-the-art results without these few, we did not further optimize our infrastructure to support the remaining evaluations.
